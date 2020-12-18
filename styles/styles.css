@@ -67,6 +67,9 @@ header {
     line-height: 15px;
 
 }
+.header-navigation__item a:hover {
+    color: #E3B873;
+}
 .header-navigation__item {
     margin-right: 47px;
 
@@ -239,6 +242,13 @@ span {
     color: #E3B873;
     margin-right: 50px;
     margin-bottom: 52px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    
+}
+.project-complited-ul__li a:hover {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #E3B873;
     
 }
 
@@ -279,13 +289,14 @@ span {
 .rep-top__pic {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 31px;
 }
 .rep-top__pic1 {
     Width: 32px;
     Height: 1.54px;
     margin-top: 13px;
-    margin-inline: 10px;
+    
     
     
 }
@@ -446,6 +457,7 @@ dt {
     background-image: url('../image/image 6.1.png');
     display: flex;
     height: 600px;
+    background-repeat: no-repeat;
 }
 .step3-topleft1 {
     
@@ -592,6 +604,11 @@ color: #363636;
     margin-top: 100px;
     margin-left: 220px;
     
+}
+.step3-button {
+    margin-top: -50px;
+    z-index: 2;
+    height: 100px;
 }
   .step3-input {
       width: 408px;
@@ -810,4 +827,46 @@ footer {
 }
 .clients {
     z-index: 2;
+}
+.clients-mid-orange {
+    width: 293px;
+    height: 54px;
+    background-color: #E3B873;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.rep-bot-orange {
+    background-color: #E3B873;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 228px;
+    height: 54px;
+}
+
+.rep-top__pic::before, .rep-top__pic::after {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 1px;
+    background-color: #E3B873;
+    margin: 10px;
+}
+.first-checkbox__2 {
+    z-index: 5;
+    position: relative;
 }
