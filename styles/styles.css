@@ -1156,7 +1156,7 @@ footer {
     }
     .final-content {
         background-image:none;
-        margin-top: -590px;
+        margin-top: -395px;
         background-color: #131313;
         height: 1150px;
 
@@ -1200,6 +1200,7 @@ footer {
         display: flex;
         align-items: center;
         flex-direction: column;
+        margin-bottom: -300px;
     }
     .final-content__mobile h2 {
         font-size: 18px;
@@ -1209,6 +1210,9 @@ footer {
     } 
     footer {
         display: none;
+    }
+    .form__2 {
+        margin-bottom: -500px;
     }
 
 }
