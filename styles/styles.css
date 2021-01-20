@@ -337,6 +337,15 @@ span {
     margin-bottom: 140px;
 
 }
+.project-complited__mobile-control2 {
+    width:  310px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -140px;
+    margin-left: 14px;
+    margin-bottom: 140px;
+
+}
 
 
 
@@ -985,9 +994,6 @@ footer {
 
 
 
-
-
-
 @media (max-width: 1300px) {
     .first {
         max-height: 476px;
@@ -1247,3 +1253,134 @@ footer {
         display: none;
     }
 }
+
+
+
+
+
+
+
+@media (max-width: 376px){
+    .title{
+        width: 80%;
+    }
+    .container2 p {
+        width: 80%;
+    }
+    .container2 button {
+        width: 80%;
+        margin-top: -10px;
+    }
+    .project-complited__top p {
+        width: 80%;
+        margin-left: 30px;
+
+
+    }
+    .project-complited__mobile img{
+        width: 80%;
+        margin-left: 35px;
+    }
+    .project-complited__mobile-control {
+        width: 70%;
+        margin-left: 50px;
+        margin-top: -130px;
+
+
+    }
+    .project-complited__mobile-control img {
+        margin-left: 0px;
+    }
+
+    .grid-item {
+        width: 100px;
+        margin-left: 40px;
+    }
+    .video-mobile {
+        width: 100%;
+    }
+    #grey-pic {
+        width: 100%;
+        margin-top: -214px;
+    }
+    .button-video {
+        margin-top: -120px;
+    }
+    .rep-top__p {
+        width: 80%;
+    }
+    .rep-mid-1 input {
+        width: 80%;
+    }
+    #checkbox {
+        width: 100%;
+    }
+    .rep-mid-1 button {
+        width: 70%;
+    }
+    .rep-bot-1 img {
+        width: 99%;
+    }
+    .rep-bot__text {
+        width: 80%;
+    }
+    .rep-bot__text ul {
+        width: 100%;
+    }
+    .section-bot__mobile {
+        width: 90%;
+    }
+    .section-bot__mobile img {
+        width: 100%;
+    }
+    .project-complited__mobile-control2 {
+        width: 90%;
+        margin-top: -130px;
+        margin-left: -3px;
+    }
+    .project-complited__mobile-control2 img {
+        width: 70%;
+        height: 70%;
+    }
+    .section-bot__element___form {
+        width: 90%;
+    }
+    .bot-input input{
+        width: 70%;
+    }
+    .bot-input__2  {
+        width: 70%;
+        margin-left: -100px;
+    }
+    .bot-input__2 #input {
+        width: 100%;
+    }
+    #checkbox__2 {
+        width: 100%;
+        text-align: center;
+    }
+    #text1 {
+        text-align: center;
+    }
+    .final-content__mobile {
+        width: 270px;
+        margin-top: 150px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
